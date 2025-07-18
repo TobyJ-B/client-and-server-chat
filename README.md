@@ -13,12 +13,18 @@ Thread-safe client list management with mutex lockin
 For server run
 ```bash
 g++ -pthread -o server server.cpp
+```
+Then
+```bash
 ./server
 ```
 
 For client run
 ```bash
 g++ -std=c++11 -o client client.cpp
+```
+Then
+```bash
 ./client
 ```
 
