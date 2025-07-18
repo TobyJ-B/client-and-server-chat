@@ -9,7 +9,7 @@ Broadcast messages to all connected clients except the sender
 Handles client disconnections gracefully
 Thread-safe client list management with mutex lockin
 
-#How to compile
+# How to compile
 For server run
 ```bash
 g++ -pthread -o server server.cpp
